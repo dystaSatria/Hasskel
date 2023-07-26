@@ -70,5 +70,29 @@ True
 True
 True
 True
+```
+
+* Logical Operators
+
+```hs
+main = do
+    print(True && True)
+    print(True && False)
+    print(True || False)
+    print(not False)
+    print(not (True && True))
+    print(not (True || False))
+
+```
+
+Output : 
+
+```output
+True
+False
+True
+True
+False
+False
 
 ```
