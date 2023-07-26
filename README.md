@@ -180,3 +180,16 @@ main = print(fib 8)
 34
 ```
 
+* Variables Must Have Values
+```hs
+x = 10
+
+main = print(x)
+```
+Error code :
+```hs
+x = 5
+x = 10
+
+main = print(x)
+```
