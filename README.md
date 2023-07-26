@@ -119,6 +119,8 @@ main = do
 main = print([1, 2, 4] ++ [4, 5])
 ```
 
+Output :
+
 ```output
 1,2,4,4,5
 ```
