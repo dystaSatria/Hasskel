@@ -35,9 +35,9 @@ main = do
     print(5^3)
     print(mod 19 3)
     print(19 `mod` 3)
-
+    print((-3)*(-7))
 ```
-
+Output: 
 ```output
 5
 -8
@@ -46,6 +46,7 @@ main = do
 125
 1
 1
+21
 ```
 
 
