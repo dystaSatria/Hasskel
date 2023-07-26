@@ -24,7 +24,7 @@ main =
 
 ```
 
-*Arithmatic operation
+* Arithmatic operation
 
 ```hs
 main = do
