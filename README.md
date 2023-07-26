@@ -112,3 +112,13 @@ main = do
     print(not ((5 > 3) && ('p' >= 'q'))) {- not (True && False) -> not False -> True -}
 
 ```
+
+* Concatenation Operator
+
+```hs
+main = print([1, 2, 4] ++ [4, 5])
+```
+
+```output
+1,2,4,4,5
+```
