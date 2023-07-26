@@ -24,4 +24,27 @@ main =
 
 ```
 
-  
+*Arithmatic operation
+
+```hs
+main = do
+    print(3 + 2)
+    print(19 - 27)
+    print(2.35*8.6)
+    print(8.7/3.1)
+    print(5^3)
+    print(mod 19 3)
+    print(19 `mod` 3)
+
+```
+ ```output
+5
+-8
+20.21
+2.8064516129032255
+125
+1
+1
+```
+
+
