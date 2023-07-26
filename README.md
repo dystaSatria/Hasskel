@@ -37,7 +37,8 @@ main = do
     print(19 `mod` 3)
 
 ```
- ```output
+
+```output
 5
 -8
 20.21
