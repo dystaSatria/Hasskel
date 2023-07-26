@@ -96,3 +96,19 @@ False
 False
 
 ```
+
+```hs
+main = do
+    -- AND operator
+    print((10 < 15) && (20 > 10)) {- True && True -> True -}
+    print((5 > 3) && ('p' >= 'q')) {- True && False -> False -}  
+    
+    -- OR operator
+    print((10 < 15) || (20 > 10)) {- True || True -> True -}
+    print((5 > 3) || ('p' >= 'q')) {- True || False -> True -}
+
+    -- NOT operator
+    print(not ((10 < 15) && (20 > 10))) {- not (True && True) -> not True -> False -}
+    print(not ((5 > 3) && ('p' >= 'q'))) {- not (True && False) -> not False -> True -}
+
+```
