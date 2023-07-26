@@ -1,7 +1,7 @@
 # Haskel Summary
 
 * Hello World
-  ```hs
+```hs
 main = do 
   putStrLn "Hello, World!"
-  ```
+```
