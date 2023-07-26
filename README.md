@@ -61,5 +61,14 @@ main = do
     print("Indonesia" >= "Dicoding")
 ```
 
+Output :
 
+```output
+True
+True
+True
+True
+True
+True
 
+```
