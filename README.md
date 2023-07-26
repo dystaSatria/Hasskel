@@ -116,11 +116,17 @@ main = do
 * Concatenation Operator
 
 ```hs
-main = print([1, 2, 4] ++ [4, 5])
+main =do
+   print([1, 2, 4] ++ [4, 5])
+    print("Dicoding" ++ " Indonesia")
 ```
 
 Output :
 
 ```output
 1,2,4,4,5
+"Dicoding Indonesia"
+
 ```
+
+
