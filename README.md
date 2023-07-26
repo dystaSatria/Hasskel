@@ -201,7 +201,7 @@ m = n + 1
 
 main = print(m)
 ```
-
+Output :
 ```output
 6
 ```
@@ -211,7 +211,7 @@ inc n = n + 1
 
 main = print(inc 5)
 ```
-
+Output :
 ```output
 6
 ```
