@@ -13,6 +13,8 @@ main = do
     putStrLn ("You entered: " ++ str)  -- Statement?
 
 ```
+
+
 * Without Do
 ```hs
 main =
