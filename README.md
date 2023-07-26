@@ -145,3 +145,22 @@ Output :
 5
 ```
 
+```hs
+
+main = do   
+    let var = 26 
+    
+    if var == 0 
+        then putStrLn "Number is zero" 
+    else if var `mod` 2 == 0 
+        then putStrLn "Number is Even" 
+    else putStrLn "Number is Odd"
+
+```
+Output :
+
+```output
+Number is Even
+
+```
+
