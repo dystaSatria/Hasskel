@@ -192,4 +192,16 @@ x = 5
 x = 10
 
 main = print(x)
+
+```
+
+```hs
+n = 5
+m = n + 1
+
+main = print(m)
+```
+
+```output
+6
 ```
