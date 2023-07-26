@@ -205,3 +205,13 @@ main = print(m)
 ```output
 6
 ```
+
+```hs
+inc n = n + 1
+
+main = print(inc 5)
+```
+
+```output
+6
+```
