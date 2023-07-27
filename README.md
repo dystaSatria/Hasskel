@@ -300,6 +300,23 @@ nilaiPi = 3.141592653589793238462643383279502884197
 main = print(nilaiPi)
 ```
 
+* Char
+
+```hs
+skor, karakter, simbol, ascii :: Char
+
+skor = 'A'
+karakter = 'q'
+simbol = '!'
+ascii = '\67'
+
+main = print(skor, karakter, simbol, ascii)
+
+```
+
+```output
+('A','q','!','C')
+```
 
 
 
