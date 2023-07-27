@@ -215,3 +215,32 @@ Output :
 ```output
 6
 ```
+
+* / Operator
+
+```hs
+
+i = 30 :: Int
+
+main = print (i / i)
+```
+Output : ERROR
+Just can be work on float
+
+True code :
+
+```hs 
+i = 30 :: Int
+j = 5 :: Int
+
+main = do
+    print (div i j)
+    print (i `div` j)
+
+```
+
+```output
+6
+6
+```
+
