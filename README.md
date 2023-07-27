@@ -482,3 +482,20 @@ Output :
 [5,4,3,2]
 
 ```
+
+* Take | Drop | sum | length
+
+```hs
+  print(length [5,4,3,2,1]) -- 5
+  print(null [1,2,3]) --False
+  print(null []) --True
+  print(take 3 [5,4,3,2,1]) --5 4 3
+  print(drop 3 [8,4,2,8,8,9]) --8 8 9
+  print(drop 0 [1,2,3,4]) -- [1,2,3,4]
+  print(drop 100 [1,2,3,4]) --[]
+  print(product [6,2,1,2]) -- 6*2*1*2
+  print(product [1,10,3,5,12,0]) --0
+
+```
+
+
