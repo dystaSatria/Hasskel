@@ -437,6 +437,7 @@ main = do
     print([3,6..20])
 
 ```
+
 Output :
 
 ```output
