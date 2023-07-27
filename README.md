@@ -287,6 +287,8 @@ main = print(massaTubuh, nilaiPi)
 ```
 
 * Double
+<br>
+
 15 digit
   
 ```hs
