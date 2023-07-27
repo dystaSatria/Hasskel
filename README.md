@@ -275,6 +275,27 @@ gajiKaryawan = 8500000
 main = print(usia, luasBangunan, gajiKaryawan)
 ```
 
+* Float
+7 digit
+```hs
+massaTubuh, nilaiPi :: Float
+
+massaTubuh = 61.5
+nilaiPi = 3.141592653589793238462643383279502884197
+
+main = print(massaTubuh, nilaiPi)
+```
+
+* Double
+15 digit
+  
+```hs
+nilaiPi :: Double
+nilaiPi = 3.141592653589793238462643383279502884197
+
+main = print(nilaiPi)
+```
+
 
 
 
