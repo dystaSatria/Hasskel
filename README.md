@@ -355,6 +355,21 @@ False
   </t>* List => [1,2,3]
   </t>* Tuple => (1,2,3)
 ```
+* Operator Konkatenasi
 
+```hs
+main = do
+    print([1, 2, 3, 4] ++ [5, 6, 7, 8])
+    print("Dicoding" ++ " " ++ "Indonesia")
+    print(['H', 'a', 's'] ++ ['k', 'e', 'l', 'l'] )
+
+```
+Output : 
+
+```output
+[1,2,3,4,5,6,7,8]
+"Dicoding Indonesia"
+"Haskell"
+```
 
 
