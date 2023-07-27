@@ -352,8 +352,8 @@ False
 
 * ### Structure Data
 
-* List => [1,2,3]
-* Tuple => (1,2,3)
+    * List => [1,2,3]
+    * Tuple => (1,2,3)
 
 
 
