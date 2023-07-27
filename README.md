@@ -318,5 +318,37 @@ main = print(skor, karakter, simbol, ascii)
 ('A','q','!','C')
 ```
 
+* String
+
+```hs
+perusahaan, alamat, industri :: String
+
+perusahaan = "Dicoding Indonesia"
+alamat = "Jl. Batik Kumeli 50 Bandung"
+industri = "Teknologi"
+
+main = print(perusahaan, alamat, industri)
+```
+
+```output
+("Dicoding Indonesia","Jl. Batik Kumeli 50 Bandung","Teknologi")
+```
+
+
+* Bool
+
+```hs
+x, y :: Bool
+
+x = True
+y = False
+
+main = print(x == y)
+```
+
+```output
+False
+```
+
 
 
