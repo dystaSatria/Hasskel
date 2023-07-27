@@ -260,4 +260,21 @@ main = do
     print(sangatBesar)
 ```
 
+* Int
+
+```hs
+usia :: Int
+usia = 25
+
+luasBangunan :: Int
+luasBangunan = 200000
+
+gajiKaryawan :: Int
+gajiKaryawan = 8500000
+
+main = print(usia, luasBangunan, gajiKaryawan)
+```
+
+
+
 
