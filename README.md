@@ -455,6 +455,10 @@ main = print(reverse [1,2,3,4,5])
 
 ```
 
+Output : 
+
 ```output
 5,4,3,2,1
 ```
+
+
