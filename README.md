@@ -276,6 +276,8 @@ main = print(usia, luasBangunan, gajiKaryawan)
 ```
 
 * Float
+<br>
+
 7 digit
 ```hs
 massaTubuh, nilaiPi :: Float
