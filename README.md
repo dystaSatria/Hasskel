@@ -461,4 +461,22 @@ Output :
 5,4,3,2,1
 ```
 
+* Head | Tail | Last | Init
 
+```hs
+main = do
+    print(head [5,4,3,2,1])
+    print(tail [5,4,3,2,1])
+    print(last [5,4,3,2,1])
+    print(init [5,4,3,2,1])
+
+```
+Output :
+
+```ouput
+5
+[4,3,2,1]
+1
+[5,4,3,2]
+
+```
