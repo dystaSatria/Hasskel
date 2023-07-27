@@ -372,4 +372,22 @@ Output :
 "Haskell"
 ```
 
+* Operator Cons
+
+ ```hs
+main = do
+    print('A':" SMALL CAT")
+    print(1:[2,3,4,5])
+
+```
+Output :
+
+```output
+"A SMALL CAT"
+[1,2,3,4,5]
+
+```
+
+
+
 
