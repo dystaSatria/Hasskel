@@ -471,9 +471,11 @@ main = do
     print(init [5,4,3,2,1])
 
 ```
+
 Output :
 
-```ouput
+
+```output
 5
 [4,3,2,1]
 1
