@@ -388,6 +388,29 @@ Output :
 
 ```
 
+* Comparison Operator
 
+```hs
+main = do
+    print([3,2,1] > [2,10,100])
+    print([3,2,1] >= [3,2,2])
+    print([2,4,2] < [3,4])
+    print([3,4,2] <= [3,4])
+    print([3,4,2] == [3,4,2])
+    print([3,2,1] == [3,2,6])
+
+```
+
+Output :
+
+```output
+True
+False
+True
+False
+True
+False
+
+```
 
 
