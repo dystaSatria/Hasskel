@@ -350,7 +350,7 @@ main = print(x == y)
 False
 ```
 
-### * Structure Data
+### *Structure Data
 
 * List => [1,2,3]
 * Tuple => (1,2,3)
