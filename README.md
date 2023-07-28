@@ -583,7 +583,11 @@ main = do
 
 ## Start on The VS Code
 
-* Lets Start : 
+* Lets Start :
+  
+* 1. Download The extension in Haskell
+
+* 2. Open terminal
 ```console
 ghci
 ```
