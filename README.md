@@ -521,3 +521,32 @@ Output :
 
 
 ```
+
+* Tuple
+
+```hs
+main = do
+    print((1,'a'))
+    print((8,11),(4,5))
+    print(("Christopher", "Walken", 55))
+    print(((2,3), [2,3]))
+    print([(1,2),(8,11),(4,5)])
+```
+
+
+
+```hs
+
+main = do
+    print(([1,2],[3,4])) -- [1,2] ,[3,4]
+    print((['a','b','c']), (['d','e'])) -- ("abc","de")
+
+```
+
+```hs
+main = do
+    print((1,2) == (8,11)) --False
+    print((5,75,13) > (15,5,33)) --False
+    print((1,2) < (3,4)) --True
+
+```
