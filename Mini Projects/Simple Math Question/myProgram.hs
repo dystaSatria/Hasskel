@@ -16,3 +16,4 @@ main3 = do
     print(min 9 10) -- 9
     print(min 3.4 3.2) --3.2
     print(max 100 101 ) --101
+    print(succ 9) + (max 5 4) + 1 --16 
