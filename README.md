@@ -583,21 +583,20 @@ main = do
 
 ## Start on The VS Code
 
-* Lets Start :
   
-* 1. Download The extension in Haskell
+* Download The extension in Haskell
 
-* 2. Open terminal
+* Open terminal
 ```console
 ghci
 ```
 
-* 2
+* Next Step
 ```console
 :load <YourProgram.hs>
 ```
 
-* 3
+* Next Step
 ```console
 main
 ```
