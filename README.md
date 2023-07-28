@@ -575,6 +575,6 @@ main = do
 main = do
     print(zip [19,2,3,4,5] [5,5,5,5,5]) --[(19,5),(2,5),(3,5),(4,5),(5,5)]
     print(zip [1 .. 5] ["one", "two", "three", "four", "five"]) --[(1,"one"),(2,"two"),(3,"three"),(4,"four"),(5,"five")]
-
+    print(zip [5,3,2,6,2,7,2,5,4,6,6] ["im","a","turtle"]) --[(5,"im"),(3,"a"),(2,"turtle")]
 ```
 
