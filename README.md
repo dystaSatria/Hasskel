@@ -1,5 +1,7 @@
 # Haskel Summary
 
+## Start in PlayGround
+
 * Hello World
 ```hs
 main = do 
@@ -578,3 +580,20 @@ main = do
     print(zip [5,3,2,6,2,7,2,5,4,6,6] ["im","a","turtle"]) --[(5,"im"),(3,"a"),(2,"turtle")]
 ```
 
+
+## Start on The VS Code
+
+* Lets Start : 
+```console
+ghci
+```
+
+* 2
+```console
+:load <YourProgram.hs>
+```
+
+* 3
+```console
+main
+```
