@@ -9,3 +9,10 @@ main2 :: IO ()
 main2 = do
         print(2*2)
         print((*) 2 2)
+
+main3 :: IO()
+main3 = do
+    print(succ 18) --output 19
+    print(min 9 10) -- 9
+    print(min 3.4 3.2) --3.2
+    print(max 100 101 ) --101
