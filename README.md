@@ -595,6 +595,17 @@ main = do
     print(zip [5,3,2,6,2,7,2,5,4,6,6] ["im","a","turtle"]) --[(5,"im"),(3,"a"),(2,"turtle")]
 ```
 
+* Function and Parameter Naming
+
+```hs
+fungsiKuadrat x = x*x
+duaKuadrat x = x*x
+fungsiKuadrat’ x = x*x
+fungsiKuadrat_ x = x*x
+tambah5 x = x+5
+ambil_2 list = take 2 list
+```
+
 <br>
 <br>
 <br>
