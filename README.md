@@ -559,3 +559,12 @@ main = do
     print((1,2) < (3,4)) --True
 
 ```
+
+* SND
+
+```hs
+main = do
+    print(snd (12,42))
+    print(snd ("Wow", False))
+
+```
