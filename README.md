@@ -543,6 +543,15 @@ main = do
 
 ```
 
+* FST
+
+```hs
+main = do
+    print(fst (12,42))
+    print(fst ("Wow", False))
+
+```
+
 ```hs
 main = do
     print((1,2) == (8,11)) --False
