@@ -22,7 +22,7 @@ getComputerMove = do
 
 main :: IO ()
 main = do
-    putStrLn "Let's play Rock-Paper-Scissors!"
+    putStrLn "Rock Paper Scissor Game | Haskell"
     hSetBuffering stdout NoBuffering
     putStrLn "Enter your move (rock/paper/scissors):"
     input <- fmap (map toUpper) getLine
