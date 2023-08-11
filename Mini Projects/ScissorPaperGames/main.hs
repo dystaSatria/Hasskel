@@ -1,4 +1,5 @@
-import System.Random
+import Data.Time.Clock.POSIX
+import System.IO
 
 data Move = Rock | Paper | Scissors deriving (Show, Eq)
 
@@ -8,21 +9,11 @@ beats Paper Rock = True
 beats Scissors Paper = True
 beats _ _ = False
 
-getPlayerMove :: IO Move
-getPlayerMove = do
-    putStrLn "Enter your move (rock/paper/scissors):"
-    input <- getLine
-    case input of
-        "rock" -> return Rock
-        "paper" -> return Paper
-        "scissors" -> return Scissors
-        _ -> do
-            putStrLn "Invalid move, please try again."
-            getPlayerMove
-
 getComputerMove :: IO Move
 getComputerMove = do
-    randomValue <- randomRIO (0, 2) :: IO Int
+    currentTime <- getPOSIXTime
+    let seed = round currentTime :: Int
+        randomValue = seed `mod` 3
     return $ case randomValue of
         0 -> Rock
         1 -> Paper
@@ -31,10 +22,20 @@ getComputerMove = do
 main :: IO ()
 main = do
     putStrLn "Let's play Rock-Paper-Scissors!"
-    playerMove <- getPlayerMove
+    hSetBuffering stdout NoBuffering
+    putStrLn "Enter your move (rock/paper/scissors):"
+    input <- getLine
+    let playerMove = case input of
+                        "rock" -> Rock
+                        "paper" -> Paper
+                        "scissors" -> Scissors
+                        _ -> error "Invalid move"
+    
     computerMove <- getComputerMove
+    
     putStrLn $ "Computer's move: " ++ show computerMove
     putStrLn $ "Your move: " ++ show playerMove
+    
     if playerMove `beats` computerMove
         then putStrLn "You win!"
         else if computerMove `beats` playerMove
