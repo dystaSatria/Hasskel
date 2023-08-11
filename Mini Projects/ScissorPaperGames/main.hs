@@ -1,3 +1,4 @@
+import Data.Char (toUpper)
 import Data.Time.Clock.POSIX
 import System.IO
 
@@ -24,11 +25,11 @@ main = do
     putStrLn "Let's play Rock-Paper-Scissors!"
     hSetBuffering stdout NoBuffering
     putStrLn "Enter your move (rock/paper/scissors):"
-    input <- getLine
+    input <- fmap (map toUpper) getLine
     let playerMove = case input of
-                        "rock" -> Rock
-                        "paper" -> Paper
-                        "scissors" -> Scissors
+                        "ROCK" -> Rock
+                        "PAPER" -> Paper
+                        "SCISSORS" -> Scissors
                         _ -> error "Invalid move"
     
     computerMove <- getComputerMove
