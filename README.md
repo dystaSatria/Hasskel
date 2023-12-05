@@ -1,8 +1,53 @@
-# Haskel Summary
+# Haskell: Operator, Expressions, and Variables
 
-<br>
-<br>
-<br>
+In programming, the variations between programming languages can be substantial, depending on their designs. Languages like Haskell exhibit unique characteristics regarding operators, expressions, and variables:
+
+## Operators and Expressions
+
+1. **Purely Functional**: Haskell adopts pure functional programming, where all functions are pure, devoid of side effects, and consistently yield values for the same input.
+2. **Pattern Matching**: Utilization of patterns enables matching data structures in function definitions, enhancing code clarity.
+3. **Lazy Evaluation**: Haskell uses lazy evaluation, allowing the utilization of infinite data structures.
+4. **Operator Precedence**: Haskell has strict rules governing the order of operations, with the ability to set operator priorities to avoid ambiguity.
+
+## Variable Concept
+
+In Haskell, variables are immutable. Once assigned a value, they cannot be altered. Altering the value of a variable effectively creates a new variable with the updated value.
+
+## Insights
+
+1. Operators in Haskell, like in other languages, are symbols or functions used for mathematical operations and data manipulation, with unique rules in each language.
+2. Expressions in Haskell encompass combinations of code that yield values, ranging from simple mathematical operations to more intricate constructs.
+3. Variables in Haskell are immutable, aligning with the principles of functional programming.
+
+Every programming language possesses its unique advantages based on its design and intended usage. Selecting the appropriate language is contingent upon the project context and requirements.
+
+---
+
+## Difference between Expressions and Statements
+
+### Expressions
+
+Expressions are code segments or combinations that yield values, such as numbers, strings, booleans, or the outcomes of mathematical operations.
+
+### Statements
+
+Statements are code snippets that execute specific actions or instructions, potentially inducing side effects and not always yielding a value.
+
+In summary:
+- Expressions yield values.
+- Statements execute actions or instructions.
+
+Note that these definitions might slightly deviate across languages. Haskell typically maintains a clearer distinction between pure expressions and statements.
+
+---
+
+## Example Expression
+
+Given the expression:
+
+```haskell
+"Dicoding" == ['D','I','C','O','D','I','N','G']
+
 
 ## Start in PlayGround
 
