@@ -46,6 +46,11 @@ To utilize the Quicksort algorithm:
 
 4. **Run the compiled executable:**
 
+```terminal
+ghc -o quicksort quicksort.hs
+
+```
+
 After successful compilation, execute the compiled program by entering the following command:
 
 
