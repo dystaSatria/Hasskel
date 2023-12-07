@@ -51,6 +51,11 @@ ghc -o quicksort quicksort.hs
 
 ```
 
+```terminal
+./quicksort
+
+```
+
 After successful compilation, execute the compiled program by entering the following command:
 
 
